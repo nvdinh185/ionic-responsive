@@ -1,0 +1,25 @@
+page-home {
+    ion-col{
+        border: 1px solid gray;
+    }
+    @media (max-width: 500px) {
+        .hidden-sm {
+          display: none !important;
+        }
+    }
+
+    ion-row:nth-of-type(odd) {
+        background-color: #FFFFFF;
+    }
+    ion-row:nth-of-type(even) {
+        background-color:#E6E7ED;
+    }
+    #header{
+        background-color: #FFBE3D;
+        color: white;
+        font-weight: bold;
+    }
+    #footer{
+        background-color: #F5F5F5;
+    }
+}
