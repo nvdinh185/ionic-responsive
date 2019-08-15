@@ -6,7 +6,7 @@ import { GridPage } from '../pages/grid/grid';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = GridPage;
 
   constructor() {}
 }

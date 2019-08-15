@@ -1,25 +1,37 @@
 page-home {
-    ion-col{
+    ion-col{//kẻ khung cho các cột
         border: 1px solid gray;
     }
-    @media (max-width: 500px) {
-        .hidden-sm {
+
+    @media (max-width: 600px) {// nếu chiều rộng màn hình tối đa chỉ là 600px
+        .hidden-sm {// thì ẩn những cột có class là hidden-sm
           display: none !important;
         }
     }
 
-    ion-row:nth-of-type(odd) {
-        background-color: #FFFFFF;
+    @media (min-width: 600px) {// nếu chiều rộng màn hình tối thiểu là 600px
+        .hidden-xl {// thì ẩn những cột có class là hidden-xl
+          display: none !important;
+        }
     }
-    ion-row:nth-of-type(even) {
-        background-color:#E6E7ED;
+
+    ion-row:nth-of-type(odd) {// dòng lẻ
+        background-color: rgb(211, 161, 161);
     }
+
+    ion-row:nth-of-type(even) {//dòng chẵn
+        background-color:rgb(141, 150, 201);
+    }
+
     #header{
         background-color: #FFBE3D;
         color: white;
         font-weight: bold;
+        text-align: center;
     }
+
     #footer{
-        background-color: #F5F5F5;
+        background-color: rgb(7, 80, 70);
+        text-align: center;
     }
 }
