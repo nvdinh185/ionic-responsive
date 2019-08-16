@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -25699,19 +25700,21 @@ page-grid ion-col {
   border: 1px solid gray;
 }
 
-page-home ion-col {
-  border: 1px solid gray;
+page-home {
+  /* ion-col{//kẻ khung cho các cột
+        border: 1px solid gray;
+    } */
 }
 
 @media (max-width: 600px) {
   page-home .hidden-sm {
-    display: none !important;
+    display: none;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   page-home .hidden-xl {
-    display: none !important;
+    display: none;
   }
 }
 

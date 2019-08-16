@@ -1,17 +1,17 @@
 page-home {
-    ion-col{//kẻ khung cho các cột
+    /* ion-col{//kẻ khung cho các cột
         border: 1px solid gray;
-    }
+    } */
 
-    @media (max-width: 600px) {// nếu chiều rộng màn hình tối đa chỉ là 600px
-        .hidden-sm {// thì ẩn những cột có class là hidden-sm
-          display: none !important;
+    @media (max-width: 600px) {// nếu chiều rộng màn hình tối đa là 600px
+        .hidden-sm {//có nghĩa là khi chiều rộng màn hình <= 600px
+          display: none;// thì ẩn những cột có class là hidden-sm
         }
     }
 
-    @media (min-width: 600px) {// nếu chiều rộng màn hình tối thiểu là 600px
-        .hidden-xl {// thì ẩn những cột có class là hidden-xl
-          display: none !important;
+    @media (min-width: 700px) {// nếu chiều rộng màn hình tối thiểu là 700px
+        .hidden-xl {//có nghĩa là khi chiều rộng màn hình >= 700px
+          display: none;// thì ẩn những cột có class là hidden-xl
         }
     }
 
