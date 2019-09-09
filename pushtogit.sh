@@ -1,3 +1,3 @@
 git add .
-git commit -am "first commit"
+git commit -am "commit"
 git push
